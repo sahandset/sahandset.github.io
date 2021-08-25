@@ -16,9 +16,9 @@
 *
 * ======================================================= */
 body {
-  font-family: "Source Sans Pro", Arial, sans-serif;
-  font-weight: 300;
-  font-size: 20px;
+  font-family: "Fira Code";
+  font-weight: 200;
+  font-size: 16px;
   line-height: 1.5;
   color: #7f7f7f;
   color: rgba(255, 255, 255, 0.7);
@@ -37,7 +37,7 @@ body {
 }
 
 a {
-  color: steelblues;
+  color: darkgoldenrod;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -45,7 +45,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: steelblue;
+  color: darkgoldenrod;
   outline: none;
 }
 
@@ -67,17 +67,17 @@ h6 {
 
 ::-webkit-selection {
   color: #fff;
-  background: steelblue;
+  background: darkgoldenrod;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: steelblue;
+  background: darkgoldenrod;
 }
 
 ::selection {
   color: #fff;
-  background: steelblue;
+  background: darkgoldenrod;
 }
 
 #fh5co-main {
@@ -169,7 +169,7 @@ h6 {
   position: absolute;
   content: "";
   height: 0;
-  background: steelblue;
+  background: darkgoldenrod;
   z-index: -1;
   top: 0;
   left: 0;
@@ -251,7 +251,7 @@ figure {
 
 .fh5co-counter .fh5co-number {
   font-size: 100px;
-  color: steelblue;
+  color: darkgoldenrod;
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -321,7 +321,7 @@ figure {
   }
 }
 .fh5co-social li a:hover {
-  color: steelblue;
+  color: darkgoldenrod;
 }
 .fh5co-social li a:hover,
 .fh5co-social li a:active,
@@ -342,7 +342,7 @@ figure {
   margin-top: 5px;
 }
 .fh5co-feature .fh5co-icon i {
-  color: steelblue;
+  color: darkgoldenrod;
   font-size: 40px;
 }
 .fh5co-feature .fh5co-text {
