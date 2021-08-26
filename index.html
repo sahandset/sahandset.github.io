@@ -238,27 +238,27 @@
             <div class="row">
               <div class="col-md-12"></div>
                 <div class="col-md-4 col-sm-6 col-xs-12 text-center">
-                  <img src="https://img.icons8.com/color/96/000000/java--v2.png" style="margin-top:3.35rem;"/>
+                  <img id="Java" src="https://img.icons8.com/color/96/000000/java--v2.png" style="margin-top:3.35rem;"/>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                <div id="Python" class="col-md-4 col-sm-6 col-xs-12 text-center">
                   <img src="https://img.icons8.com/color/96/000000/python--v2.png" style="margin-top:3.35rem;"/>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                <div id="JavaScript" class="col-md-4 col-sm-6 col-xs-12 text-center">
                     <img src="https://img.icons8.com/color/96/000000/javascript--v2.png" style="margin-top:3.35rem;"/>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                <div id="Git" class="col-md-4 col-sm-6 col-xs-12 text-center">
                   <img src="https://img.icons8.com/color/96/000000/git.png" style="margin-top:3.35rem;"/>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                <div id="AWS" class="col-md-4 col-sm-6 col-xs-12 text-center">
                   <img src="https://img.icons8.com/color/96/000000/amazon-web-services.png" style="margin-top:3.35rem;"/> 
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                <div id="SF" class="col-md-4 col-sm-6 col-xs-12 text-center">
                   <img src="https://img.icons8.com/color/96/000000/salesforce.png" style="margin-top:3.35rem;"/>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                <div id="Jira" class="col-md-4 col-sm-6 col-xs-12 text-center">
                   <img src="https://img.icons8.com/color/96/000000/jira.png" style="margin-top:3.35rem;"/>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                <div id="Docker" class="col-md-4 col-sm-6 col-xs-12 text-center">
                   <img src="https://img.icons8.com/fluency/96/000000/docker.png" style="margin-top:3.35rem;"/>
                 </div>
               </div>
@@ -287,6 +287,80 @@
     <script src="js/jquery.easypiechart.min.js"></script>
     <!-- MAIN JS -->
     <script src="js/main.js"></script>
+
+    <script>
+      import tippy, {animateFill} from 'tippy.js';
+      import 'tippy.js/dist/tippy.css';
+
+      import 'tippy.js/dist/backdrop.css';
+      import 'tippy.js/animations/shift-away.css';
+    </script>
+
+    <!-- Development -->
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+
+    <!-- Production -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script>
+      // With the above scripts loaded, you can call `tippy()` with a CSS
+      // selector and a `content` prop:
+      tippy('#Java', {
+        content: 'Java',
+          followCursor: true,
+          arrow: false
+      });
+      tippy('#Python', {
+        content: 'Python',
+        followCursor: true,
+        arrow: false
+
+
+      });
+      tippy('#JavaScript', {
+        content: 'JavaScript',
+        followCursor: true,
+        arrow: false
+
+
+      });
+      tippy('#Git', {
+        content: 'Git',
+        followCursor: true,
+        arrow: false
+
+
+      });
+      tippy('#AWS', {
+        content: 'Amazon Web Services',
+        followCursor: true,
+        arrow: false
+
+
+      });
+      tippy('#SF', {
+        content: 'Salesforce',
+        followCursor: true,
+        arrow: false
+
+
+      });
+      tippy('#Jira', {
+        content: 'Jira',
+        followCursor: true,
+        arrow: false
+
+
+      });
+      tippy('#Docker', {
+        content: 'Docker',
+        followCursor: true,
+        arrow: false
+
+
+      });
+    </script>
   </body>
 </html>
 
